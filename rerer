@@ -1,0 +1,6 @@
+local text = script.Parent
+
+script.Parent.MouseButton1Click:Connect(function()
+	local NewText = text.Text == "ON" and "OFF" or "ON"
+	text.Text = NewText
+end)
